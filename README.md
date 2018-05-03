@@ -10,8 +10,12 @@ Built and tested on SUSE Linux.
 # Requirements
 - ṄET Core v.2.1.105
 
+# Tasks
+- dotnet build (Builds Project)
+- dotnet run (Runs Project)
+
 # Known Problems
-- Namespace issues causes compilation failure (05/02/2018).
+- Namespace issues causes compilation failure of main project (05/02/2018).
 
 # Execution Screenshot
 ![alt text](https://raw.githubusercontent.com/afinlay5/CSharp7/master/run.png)
