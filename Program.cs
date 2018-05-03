@@ -37,9 +37,8 @@ namespace CSharp7
     {
         static void Main()
         {
-        	Console.WriteLine("cunt");
-        	// Seven.Program.Main();
-        	// SevenPointOne.Program.Main();
+        	Seven.Program.Main();
+        	SevenPointOne.Program.Main();
         }
     }
 }

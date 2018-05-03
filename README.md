@@ -15,7 +15,9 @@ Built and tested on SUSE Linux.
 - dotnet run (Runs Project)
 
 # Known Problems
-- Namespace issues causes compilation failure of main project (05/02/2018).
+- <strike>Namespace issues causes compilation failure of main project (05/02/2018)</strike>.
 
 # Execution Screenshot
-![alt text](https://raw.githubusercontent.com/afinlay5/CSharp7/master/run.png)
+![alt text](https://raw.githubusercontent.com/afinlay5/CSharp7/master/run1.png)
+![alt text](https://raw.githubusercontent.com/afinlay5/CSharp7/master/run2.png)
+![alt text](https://raw.githubusercontent.com/afinlay5/CSharp7/master/run3.png)

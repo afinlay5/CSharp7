@@ -34,7 +34,7 @@ namespace SevenPointOne
 {
     class Program
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("----------------------------");
 			Console.WriteLine("C#7.1 -- Async Main");
