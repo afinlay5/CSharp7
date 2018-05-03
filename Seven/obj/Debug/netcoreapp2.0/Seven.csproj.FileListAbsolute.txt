@@ -1,0 +1,3 @@
+/home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.csproj.CoreCompileInputs.cache
+/home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.AssemblyInfoInputs.cache
+/home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.AssemblyInfo.cs

@@ -39,7 +39,7 @@ namespace src.me.adriandavid.SevenPointOne {
 		}
 
 		//main()
-		static async Task <int> Main() {
+		public static async Task <int> Main() {
 			Console.WriteLine("\nInside of an async Main() method.\n");
 			return await DoTask ();
 		}

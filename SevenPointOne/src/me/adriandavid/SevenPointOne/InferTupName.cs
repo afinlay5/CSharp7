@@ -32,16 +32,16 @@ using System;
 namespace src.me.adriandavid.SevenPointOne {
 	public class InferTupName {
 		//main()
-		static void Main() {
+		public static void Main() {
 			//This is how named tuples work
 			Console.WriteLine("\nThis is how named tuples work.");
 			var name = (first: "Adrian", sur:"Finlay");
-			Console.WriteLine("My name is " + name.sur + "," + name.first + ".");
+			Console.WriteLine("My name is " + name.sur + ", " + name.first + ".");
 
 			//Pre C#7
 			var cities6 = (Istanbul: "Istanbul", Dubai: "Dubai", Paris: "Paris", Bangkok: "Bangkok");
 			//C#7
-			var (Istantbul, Dubai, Paris, Bangkok) = ("Istanbul", "Dubai", "Paris", "Bangkok");
+			var (Istanbul, Dubai, Paris, Bangkok) = ("Istanbul", "Dubai", "Paris", "Bangkok");
 			var cities = (Istanbul, Dubai, Paris, Bangkok); //The names of Tuple Elements are inferred
 
 			Console.WriteLine("\nFamous cities around the world:");

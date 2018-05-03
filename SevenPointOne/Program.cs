@@ -39,6 +39,7 @@ namespace SevenPointOne
             Console.WriteLine("----------------------------");
 			Console.WriteLine("C#7.1 -- Async Main");
 			Console.WriteLine("----------------------------");
+			// await AsyncMain.Main();
 			AsyncMain.Main();
 
 			Console.WriteLine("----------------------------");

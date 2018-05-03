@@ -32,7 +32,7 @@ using System;
 namespace src.me.adriandavid.SevenPointOne {
 	public class DefLit {
 		//main()
-		static void Main() {
+		public static void Main() {
 			int x = default;
 			double y = default;
 			bool z = default;
