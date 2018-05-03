@@ -29,9 +29,9 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class DeconstructEG {
-		static void Main () {
+		public static void Main () {
 			//A Class implementing Deconstruct(), & a Tuple
 			var sample = new DeconstructCls (9, 72.3, "Yellow");
 			var sample2 = (21, 103.5, "Turquoise");

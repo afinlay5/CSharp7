@@ -29,7 +29,7 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class DeconstructCls {
 		//Properties
 		public int x {get;}

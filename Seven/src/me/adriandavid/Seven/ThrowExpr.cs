@@ -29,17 +29,20 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class ThrowExpr {
 		//Throw Expression: Expression-Bodied Member
 		static void GetPhoneNumber () => throw new Exception("Throw Expression EG#1");
 
-		static void Main () {
-			ThrowExpr.GetPhoneNumber();
+		public static void Main () {
+			//EG#1
+			try {
+				ThrowExpr.GetPhoneNumber();
+			} catch (Exception e) { Console.WriteLine(e.Message + '\n'); }
 
 			//EG#2
 			//Throw Expression: Null Coalescing Expression
-			var nu = null;
+			object nu = null;
 			try {
 				var exc = nu ?? throw new Exception("Throw Expression EG#2");
 			} catch (Exception e) { Console.WriteLine(e.Message + '\n'); }

@@ -1,3 +1,10 @@
 /home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.csproj.CoreCompileInputs.cache
 /home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.AssemblyInfoInputs.cache
 /home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.AssemblyInfo.cs
+/home/adrian/Projects/CSharp7/Seven/bin/Debug/netcoreapp2.0/Seven.deps.json
+/home/adrian/Projects/CSharp7/Seven/bin/Debug/netcoreapp2.0/Seven.runtimeconfig.json
+/home/adrian/Projects/CSharp7/Seven/bin/Debug/netcoreapp2.0/Seven.runtimeconfig.dev.json
+/home/adrian/Projects/CSharp7/Seven/bin/Debug/netcoreapp2.0/Seven.dll
+/home/adrian/Projects/CSharp7/Seven/bin/Debug/netcoreapp2.0/Seven.pdb
+/home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.dll
+/home/adrian/Projects/CSharp7/Seven/obj/Debug/netcoreapp2.0/Seven.pdb

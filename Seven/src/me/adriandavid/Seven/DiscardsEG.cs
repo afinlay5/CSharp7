@@ -29,7 +29,7 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class DiscardsEG {
 		//Tuple returning method
 		static (string, string, string, string, int, double) GenerateName (string fname, string sname, int age) {
@@ -37,7 +37,7 @@ namespace me.adriandavid.Seven {
 		}
 
 		//main()
-		static void Main() {
+		public static void Main() {
 			//Discards - We don't need the middle names or the wright;
 			var (first, _, _, last, age, _) = GenerateName("Adrian", "Finlay", 93);
 			Console.WriteLine("\nAge:\t" + age);

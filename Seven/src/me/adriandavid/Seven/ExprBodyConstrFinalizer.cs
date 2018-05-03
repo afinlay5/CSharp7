@@ -29,7 +29,7 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class ExprBodyConstrFinalizer {
 		//Nested Class
 		class Inner {
@@ -48,7 +48,7 @@ namespace me.adriandavid.Seven {
 		}
 
 		//main()
-		static void Main() {
+		public static void Main() {
 			var EB_CF = new ExprBodyConstrFinalizer.Inner ();
 			EB_CF.trigger();
 		}

@@ -41,7 +41,7 @@ namespace Seven
 			Console.WriteLine("----------------------------");
 			BinLitDigSep.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Tuples & Deconstruction");
 			Console.WriteLine("----------------------------");
 			Tuples.Main();
@@ -57,7 +57,7 @@ namespace Seven
 			Console.WriteLine("----------------------------");
 			PatternMatch.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Out variables");
 			Console.WriteLine("----------------------------");
 			OutVarDecl.Main();
@@ -67,17 +67,17 @@ namespace Seven
 			Console.WriteLine("----------------------------");
 			ExprBodyGetSet.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Expression bodied constructors and finalizers");
 			Console.WriteLine("----------------------------");
 			ExprBodyConstrFinalizer.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Throw Expressions");
 			Console.WriteLine("----------------------------");
 			ThrowExpr.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Discards");
 			Console.WriteLine("----------------------------");
 			DiscardsEG.Main();
@@ -87,12 +87,12 @@ namespace Seven
 			Console.WriteLine("----------------------------");
 			Console.WriteLine("See the source filed named \"GenAsyncReturn.cs\" ");
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("C#7 -- Ref returns and locals");
 			Console.WriteLine("----------------------------");
 			RefLocal.Main();
 
-			Console.WriteLine("----------------------------");
+			Console.WriteLine("\n----------------------------");
 			Console.WriteLine("----------------------------");
         }
     }

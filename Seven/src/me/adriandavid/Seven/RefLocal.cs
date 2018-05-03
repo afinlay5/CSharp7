@@ -29,7 +29,7 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class RefLocal {
 		//Ref Method
 		public static ref double ref_local (double [] m) {
@@ -37,7 +37,7 @@ namespace me.adriandavid.Seven {
 		}
 
 		//main()
-		static void Main() {
+		public static void Main() {
 			//Array[2] of double
 			double[] arr = {2.1,3.4};
 			//Let's print the contents - 2.1,3.4

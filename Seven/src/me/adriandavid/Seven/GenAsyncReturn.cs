@@ -5,7 +5,7 @@
 
 using System.Threading.Tasks;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class GenAsyncReturn {
 		public async ValueTask<int> Func() {  
    			await Task.Delay(100);     

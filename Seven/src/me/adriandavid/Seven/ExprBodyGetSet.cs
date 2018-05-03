@@ -29,7 +29,7 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class ExprBodyGetSet {
 		private double VN = 7.1;
 
@@ -38,7 +38,7 @@ namespace me.adriandavid.Seven {
 			set => this.VN =7;
 		}
 
-		static void Main() {
+		public static void Main() {
 			/* Expression-Bodied Getters/Setters */
 
 			//get

@@ -29,13 +29,13 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class OutVarDecl {
 		static void Add(double x, double y, out double z) {
 			z = x +y;
 		}
 
-		static void Main() {
+		public static void Main() {
 			//Pre-C#7
 			double v6;
 			OutVarDecl.Add(99,1,out v6);

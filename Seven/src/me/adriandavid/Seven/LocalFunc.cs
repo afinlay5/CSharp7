@@ -30,11 +30,11 @@ SOFTWARE.
 using System;
 using System.Text;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class LocalFunc {
-		static void Main() {
+		public static void Main() {
 			Console.WriteLine("\nLocal Function at work:\t"
-				+ strGren(new StringBuilder("Adrian")) + ".\n");
+				+ strGen(new StringBuilder("Adrian")) + ".\n");
 		}
 
 		private static string strGen(StringBuilder input) {

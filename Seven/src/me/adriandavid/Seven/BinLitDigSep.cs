@@ -29,9 +29,9 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class BinLitDigSep {
-		static void Main() {
+		public static void Main() {
 			//Binary Literals
 			int b = 0b10101000; 
 			//These are digit seperators

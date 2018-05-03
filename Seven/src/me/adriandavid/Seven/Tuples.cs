@@ -29,9 +29,9 @@ SOFTWARE.
 
 using System;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class Tuples {
-		static void Main() {
+		public static void Main() {
 			//C#7 Tuples
 			var tuple7 = ("Julien Missial", "E295481", 170000.0);
 			Console.WriteLine("\nC#7 Tuples:\t\t\t" + tuple7);

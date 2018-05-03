@@ -30,12 +30,12 @@ SOFTWARE.
 using System;
 using System.Collections.Generic;
 
-namespace me.adriandavid.Seven {
+namespace src.me.adriandavid.Seven {
 	public class PatternMatch {
-		static void Main() {
+		public static void Main() {
 			//A Collection
 			List<object> lc = new List <object> (13);
-			lc.addRange(new List<object> {
+			lc.AddRange(new List<object> {
 				"\n", "A", 97, "D", 9,
 				7, "R", 1, 2, "I", 4,
 				"A", "N", 11, ".", "\n", "\n"
@@ -49,8 +49,8 @@ namespace me.adriandavid.Seven {
 
 			    //Pattern Matching
 			    switch (i) {
-			        case string ch:
-			            Console.Write(ch);
+			        case string ch2:
+			            Console.Write(ch2);
 			            break;
 			    }  
 			}
