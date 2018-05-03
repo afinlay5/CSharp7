@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <LangVersion>7.1</LangVersion> 
+  	<LangVersion>7.1</LangVersion> 
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject>CSharp7.Program</StartupObject>

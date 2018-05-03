@@ -28,15 +28,18 @@ SOFTWARE.
 **/
 
 using System;
+// using Seven;
+// using SevenPointOne;
 
 namespace CSharp7
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-        	Seven.Program.Main();
-        	SevenPointOne.Program.Main();
+        	Console.WriteLine("cunt");
+        	// Seven.Program.Main();
+        	// SevenPointOne.Program.Main();
         }
     }
 }
